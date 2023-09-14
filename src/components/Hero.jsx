@@ -6,7 +6,7 @@ import HeroImage from '../assets/HeroImage.png';
 
 const Hero = () => {
   return (
-    <main className="flex flex-row px-[2rem] py-[1rem]">
+    <main className="flex flex-row px-[2rem] lg:px-[5rem] py-[1rem] ">
       {/* Left Side */}
       <section className="flex flex-col space-y-4">
         <div className="bg-varPink mx-10 mt-[3rem] flex w-fit flex-row items-center space-x-2 rounded-full px-5 py-1">
@@ -30,7 +30,7 @@ const Hero = () => {
         </div>
       </section>
       {/* Right Side */}
-      <section className="relative">
+      <section className="relative lg:ml-52">
         <div className="absolute w-[38rem] -top-[5rem] left-16">
           <Image src={HeroImage} alt="" layout="intrinsic" />
         </div>
