@@ -5,7 +5,7 @@ import { BsFillSendFill } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <main className="flex w-full flex-col space-y-6 p-5 mt-10 -z-10">
+    <main id="footer" className="flex w-full flex-col space-y-6 p-5 mt-10 -z-10">
       {/* Findus, Callus, Mailus section */}
       <section className="flex flex-row justify-between px-3">
         {footerData.map((data) => {
