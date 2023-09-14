@@ -23,6 +23,7 @@
     "react-dom": "18.2.0",
     "react-hot-toast": "^2.4.1",
     "react-icons": "^4.11.0",
+    "react-scroll": "^1.8.9",
     "stripe": "^13.5.0",
     "zod": "^3.21.4",
     "zustand": "^4.4.1"

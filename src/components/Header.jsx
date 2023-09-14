@@ -44,7 +44,7 @@ const Header = () => {
         </Link>
         {items > 0 && (
           <div
-            className={`absolute top-3 right-2 ${
+            className={`absolute right-2 top-3 ${
               order !== "" && "right-18"
             } z-20 flex h-5 w-5 items-center justify-center rounded-full bg-themeRed text-xs font-semibold text-white`}
           >
